@@ -1,0 +1,50 @@
+.bg-img {
+  background-image: url("/public/glassesImage/background.jpg");
+}
+
+.model {
+  margin: 50px 100px;
+}
+
+.card {
+  border: none !important;
+  position: relative;
+}
+
+.card .card-img-top {
+  position: absolute;
+  mix-blend-mode: multiply;
+  width: 200px;
+  height: 150px;
+  top:80px;
+  left: 50px;
+}
+
+.card .card-body {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  background-color: rgb(198, 245, 245);
+  opacity: 0.6;
+}
+
+.card .card-body .card-title {
+  color: rgb(255, 0, 106);
+}
+.card .card-body .card-text {
+  color: rgb(0, 0, 0);
+}
+
+.bg-model {
+  background-image: url("/public/glassesImage/model.jpg");
+  /* background-position: center; */
+  width: 300px;
+  height: 360px;
+  background-size: cover;
+}
+
+.bg-glasses {
+  background-color: rgb(219, 209, 209);
+}
